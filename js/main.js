@@ -1,5 +1,6 @@
 function InvoiceController($scope) {
-
+  
+  $scope.currencySymbol = 'Rp.';
   $scope.logoRemoved = false;
   $scope.printMode = false;
 
